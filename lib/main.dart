@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sudoku/presentation/pages/sudoku_page.dart';
-import 'package:sudoku_solver_generator/sudoku_solver_generator.dart';
 
 void main() {
-  final a = SudokuGenerator();
-  print(a.newSudoku);
+
 
   runApp(const MyApp());
 }
